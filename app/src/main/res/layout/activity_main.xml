@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bgcolor"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:paddingTop="0dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="34dp"
+            android:layout_height="9dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            android:backgroundTint="#c6e2ff"
+            android:textColor="#177972"
+            android:textColorHint="#177972"
+            android:text="Pengeluaran makan"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:paddingTop="0dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="MissingConstraints">
+
+    </GridLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonbranks"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_marginBottom="36dp"
+        app:cornerRadius="40dp"
+        android:textSize="20sp"
+        android:text="Jumlah Uang Kamu"
+        android:textColorHint="#177972"
+        android:textColor="#177972"
+        android:backgroundTint="#cbd2ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
